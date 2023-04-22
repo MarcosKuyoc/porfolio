@@ -7,9 +7,17 @@ export const Porfolio = () => {
       <div className="pt-5">
         <div className="grid gap-3 max-sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
           <div className="">
-            <Image alt='Galery'
+            <Image alt='Las Coloradas Yucatán'
               className="block w-full rounded-lg object-cover object-center"
-              src="https://marcoskuyoc.com/images/las_coloradas.jpg"
+              src="images/las_coloradas.jpg"
+              width={100}
+              height={100}
+            />
+          </div>
+          <div className="">
+            <Image alt='Chiquitita of my life'
+              className="block w-full rounded-lg object-cover object-center"
+              src="images/chiquitita.png"
               width={100}
               height={100}
             />
@@ -17,7 +25,7 @@ export const Porfolio = () => {
           <div className="">
             <Image alt='Galery'
               className="block w-full rounded-lg object-cover object-center"
-              src="https://marcoskuyoc.com/images/chiquitita.png"
+              src="images/flamenco.jpg"
               width={100}
               height={100}
             />
@@ -25,7 +33,7 @@ export const Porfolio = () => {
           <div className="">
             <Image alt='Galery'
               className="block w-full rounded-lg object-cover object-center"
-              src="https://marcoskuyoc.com/images/flamenco.jpg"
+              src="images/caribephoto.png"
               width={100}
               height={100}
             />
@@ -33,7 +41,23 @@ export const Porfolio = () => {
           <div className="">
             <Image alt='Galery'
               className="block w-full rounded-lg object-cover object-center"
-              src="https://marcoskuyoc.com/images/caribephoto.png"
+              src="images/mexicohoteles.png"
+              width={100}
+              height={100}
+            />
+          </div>
+          <div className="">
+            <Image alt='Panel Administrativo'
+              className="block w-full rounded-lg object-cover object-center"
+              src="images/dashboard-vsp.png"
+              width={100}
+              height={100}
+            />
+          </div>
+          <div className="">
+            <Image alt='Trackpickup'
+              className="block w-full rounded-lg object-cover object-center"
+              src="images/trackpickup.jpeg"
               width={100}
               height={100}
             />
@@ -41,64 +65,40 @@ export const Porfolio = () => {
           <div className="">
             <Image alt='Galery'
               className="block w-full rounded-lg object-cover object-center"
-              src="https://marcoskuyoc.com/images/mexicohoteles.png"
+              src="images/ResumendevuelosenCancun.jpeg"
               width={100}
               height={100}
             />
           </div>
           <div className="">
-            <Image alt='Galery'
+            <Image alt='Reservaciones San Felipe'
               className="block w-full rounded-lg object-cover object-center"
-              src="https://marcoskuyoc.com/images/dashboard-vsp.png"
+              src="images/reservaciones.jpeg"
               width={100}
               height={100}
             />
           </div>
           <div className="">
-            <Image alt='Galery'
-              className="block w-full rounded-lg object-cover object-center"
-              src="https://marcoskuyoc.com/images/trackpickup.jpeg"
-              width={100}
-              height={100}
-            />
-          </div>
-          <div className="">
-            <Image alt='Galery'
-              className="block w-full rounded-lg object-cover object-center"
-              src="https://marcoskuyoc.com/images/ResumendevuelosenCancun.jpeg"
-              width={100}
-              height={100}
-            />
-          </div>
-          <div className="">
-            <Image alt='Galery'
-              className="block w-full rounded-lg object-cover object-center"
-              src="https://marcoskuyoc.com/images/reservaciones.jpeg"
-              width={100}
-              height={100}
-            />
-          </div>
-          <div className="">
-              <Image alt='Galery'
+              <Image alt='MapperHouse'
                 className="block w-full rounded-lg object-cover object-center"
-                src="https://marcoskuyoc.com/images/mapperhouse.png"
+                src="images/mapperhouse.png"
                 width={100}
                 height={100}
               />
           </div>
           <div className="">
-            <Image alt='Galery'
+            <Image alt='Iluminarte Fotografia'
               className="block w-full rounded-lg object-cover object-center"
-              src="https://marcoskuyoc.com/images/iluminarte.png"
+              src="images/iluminarte.png"
               width={100}
               height={100}
             />
           </div>
           <div className="">
             <div className="w-full">
-              <Image alt='Galery'
+              <Image alt='Bazinga Travel'
                 className="block w-full rounded-lg object-cover object-center"
-                src="https://marcoskuyoc.com/images/Tianguis.jpeg"
+                src="images/bazinga.png"
                 width={100}
                 height={100}
               />

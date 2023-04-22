@@ -26,7 +26,7 @@ export const Developer = () => {
       <br />
       <br />
       <p className="mb-10 text-2xl">Si quieres ponerte en contacto conmigo escribe a <a href='mailto:marcos.kuyoc.dev@gmail.com' className="underline underline-offset-1 text-green">marcos.kuyoc.dev@gmail.com</a></p>
-      <a href="">
+      <a href="/downloads/cv_es_2023.pdf" download="CVMarcosKuyoc2023.pdf">
         <button className="bg-green-600 hover:bg-green-700 px-5 py-2 text-sm leading-5 rounded-full font-semibold text-white">
           <span>Descarga mi CV</span>
         </button>

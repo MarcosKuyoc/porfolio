@@ -1,23 +1,28 @@
+import { text } from "stream/consumers"
+
 export const Developer = () => {
   return (
-    <section id="marcos" className="pt-40 pb-40 mb-40">   
-      <div className='flex'>
-        <svg style={{width: '6rem', height: '6rem'}} xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512">
+    <section id="marcos" className="pt-40 pb-40 mb-40">
+      <h1 className="text-violet uppercase text-6xl md:hidden">
+        Marcos <span className="text-green"> Kuyoc</span>
+      </h1> 
+      <div className='flex max-md:hidden'>
+        <svg style={{width: '4rem', height: '4rem'}} className="mt-4" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512">
           <path fill="currentColor" d="M34.52 239.03L228.87 44.69c9.37-9.37 24.57-9.37 33.94 0l22.67 22.67c9.36 9.36 9.37 24.52.04 33.9L131.49 256l154.02 154.75c9.34 9.38 9.32 24.54-.04 33.9l-22.67 22.67c-9.37 9.37-24.57 9.37-33.94 0L34.52 272.97c-9.37-9.37-9.37-24.57 0-33.94z"/>
         </svg>
         <h1 className="text-violet uppercase text-8xl">
-          Marcos <span className="h1-last-name"> Kuyoc</span>
+          Marcos <span className="text-green"> Kuyoc</span>
         </h1>
-        <svg style={{width: '6rem', height: '6rem'}}  transform="rotate(80)" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 512">
+        <svg style={{width: '4rem', height: '4rem'}} className="mt-4 ml-4"  transform="rotate(80)" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 512">
           <path fill="currentColor" d="M594.53 508.63L6.18 53.9c-6.97-5.42-8.23-15.47-2.81-22.45L23.01 6.18C28.43-.8 38.49-2.06 45.47 3.37L633.82 458.1c6.97 5.42 8.23 15.47 2.81 22.45l-19.64 25.27c-5.42 6.98-15.48 8.23-22.46 2.81z"/>
         </svg>
-        <svg style={{width: '6rem', height: '6rem'}} xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512">
+        <svg style={{width: '4rem', height: '4rem'}} className="mt-4" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512">
           <path fill="currentColor" d="M285.476 272.971L91.132 467.314c-9.373 9.373-24.569 9.373-33.941 0l-22.667-22.667c-9.357-9.357-9.375-24.522-.04-33.901L188.505 256 34.484 101.255c-9.335-9.379-9.317-24.544.04-33.901l22.667-22.667c9.373-9.373 24.569-9.373 33.941 0L285.475 239.03c9.373 9.372 9.373 24.568.001 33.941z"/>
         </svg>
       </div>
       
       <div className="text-3xl uppercase pt-5 pb-5">Bienvenido a mi sitio web personal.</div>
-      <div className="text-1xl pt-5 pb-5 text-orange">Soy, desarrollador FullStack (Javascript - Typescript, Node, Pyhton, PHP), con más de 14 años de experiencia en el área tecnológica.</div>
+      <div className="text-1xl pt-5 pb-5 text-orange">Soy, desarrollador FullStack (Javascript, Typescript, Node, Python, PHP, Nest.js, Next.js, Vue.js, Nuxt.js etc.), con más de 14 años de experiencia en el área tecnológica.</div>
       <br />
       <br />
       <p className="mb-10 text-2xl">Si quieres ponerte en contacto conmigo escribe a <a href='mailto:marcos.kuyoc.dev@gmail.com' className="underline underline-offset-1 text-green">marcos.kuyoc.dev@gmail.com</a></p>

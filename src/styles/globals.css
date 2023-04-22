@@ -2,7 +2,6 @@
 @tailwind components;
 @tailwind utilities;
 
-
 body {
   color: #66d9ef;
   background-color: rgb(39, 32, 34);
@@ -12,14 +11,6 @@ body {
   font-family: var(--inter-font);
 }
 
-.bg-primary {
-  background-color: rgb(43, 36, 36);
-}
-
-
-.bg-nav{
-  @apply bg-primary;
-}
 .text-gray {
   color: #75715e;
 }
@@ -57,6 +48,25 @@ body {
   color: #e6db74;
 }
 
+.text-green {
+  color: #a6e22e;
+}
+.text-green-2{
+  color: #00ff9d;
+}
+
+.text-cyan {
+  color: #a1efe4;
+}
+
+.bg-primary {
+  background-color: rgb(43, 36, 36);
+}
+
+.bg-nav{
+  background-color: rgb(43, 36, 36);
+}
+
 .bg-green-custom {
   background-color: #a6e22e;
 }
@@ -66,16 +76,6 @@ body {
   
 }
 
-.text-green {
-  color: #a6e22e;
-}
-.text-cyan {
-  color: #a1efe4;
-}
-
-.h1-last-name {
-  @apply text-green;
-}
 
 
 

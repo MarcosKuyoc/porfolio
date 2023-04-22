@@ -1,4 +1,11 @@
+import { useState } from "react"
+
 export const Navbar = () => {
+  const [isOpenMenu, setIsOpenMenu] = useState<boolean>(false);
+
+  const onTogleMenu = () => {
+    setIsOpenMenu(!isOpenMenu);
+  }
   return (
     <>
       <header className="h-1/5 md:hidden">
@@ -12,6 +19,7 @@ export const Navbar = () => {
             className="text-sm text-gray-500 rounded-lg hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600"
             aria-controls="navbar-default"
             aria-expanded="false"
+            onClick={onTogleMenu}
           >
             <span className="sr-only">Open main menu</span>
             <svg className="w-6 h-6" aria-hidden="true" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
@@ -20,9 +28,9 @@ export const Navbar = () => {
           </button>
         </div>
       </header>
-      <nav className="h-3/4">
-        <div className='max-md:hidden pt-2 ml-3 uppercase text-white text-xs pb-10'>Explorador</div>
-        <ul className="max-md:hidden">
+      <nav className='h-3/4'>
+        <div className='pt-2 ml-3 max-md:hidden uppercase text-white text-xs pb-10'>Explorador</div>
+        <ul className={isOpenMenu ? 'max-md:visible' : 'max-md:hidden'}>
           <li className="bg-zinc-600">
             <div className="flex flex-row pt-2 pb-2 pl-10">
               <svg width={20} height={20} className="text-orange" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512">

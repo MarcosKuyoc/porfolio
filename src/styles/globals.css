@@ -2,26 +2,81 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
-  }
-}
 
 body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+  color: #66d9ef;
+  background-color: rgb(39, 32, 34);
 }
+
+.text {
+  font-family: var(--inter-font);
+}
+
+.bg-primary {
+  background-color: rgb(43, 36, 36);
+}
+
+
+.bg-nav{
+  @apply bg-primary;
+}
+.text-gray {
+  color: #75715e;
+}
+
+.text-violet {
+  --tw-text-opacity: 1;
+  color: #fd5ff0;
+}
+
+.text-orange {
+  --tw-text-opacity: 1;
+  color: #fd971f;
+}
+
+.text-red {
+  --tw-text-opacity: 1;
+  color: #f92672;
+}
+
+.bg-red {
+  --tw-text-opacity: 1;
+  background-color: #f92672;
+}
+
+.text-blue {
+  color: #66d9ef;
+}
+
+.text-violet-2 {
+  --tw-text-opacity: 1;
+  color: #ae81ff;
+}
+
+.text-yellow {
+  color: #e6db74;
+}
+
+.bg-green-custom {
+  background-color: #a6e22e;
+}
+
+.bg-green {
+  @apply bg-green-custom;
+  
+}
+
+.text-green {
+  color: #a6e22e;
+}
+.text-cyan {
+  color: #a1efe4;
+}
+
+.h1-last-name {
+  @apply text-green;
+}
+
+
+
+

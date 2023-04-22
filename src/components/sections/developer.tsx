@@ -22,7 +22,7 @@ export const Developer = () => {
       </div>
       
       <div className="text-3xl uppercase pt-5 pb-5">Bienvenido a mi sitio web personal.</div>
-      <div className="text-1xl pt-5 pb-5 text-orange">Soy, desarrollador FullStack (Javascript, Typescript, Node, Python, PHP, Nest.js, Next.js, Vue.js, Nuxt.js etc.), con más de 14 años de experiencia en el área tecnológica.</div>
+      <div className="text-1xl pt-5 pb-5 text-orange font-bold">Soy, desarrollador FullStack (Javascript, Typescript, Node, Python, PHP, Nest.js, Next.js, Vue.js, Nuxt.js etc.), con más de 14 años de experiencia en el área tecnológica.</div>
       <br />
       <br />
       <p className="mb-10 text-2xl">Si quieres ponerte en contacto conmigo escribe a <a href='mailto:marcos.kuyoc.dev@gmail.com' className="underline underline-offset-1 text-green">marcos.kuyoc.dev@gmail.com</a></p>

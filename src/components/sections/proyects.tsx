@@ -7,7 +7,7 @@ export const Proyects = () => {
       <div className='pt-5'>
         <div className='grid gap-3 max-sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3'>
           <div className="block rounded-lg divide-y divide-white border text-center shadow-[0_2px_15px_-3px_rgba(0,0,0,0.07),0_10px_20px_-2px_rgba(0,0,0,0.04)]">
-            <div className="px-6 py-3 text-violet">
+            <div className="px-6 py-3 text-violet font-semibold">
               Témplate de registro de usuarios
             </div>
             <div className="p-6 m-auto">
@@ -66,7 +66,7 @@ export const Proyects = () => {
           </div>
 
           <div className="block rounded-lg divide-y divide-white border text-center shadow-[0_2px_15px_-3px_rgba(0,0,0,0.07),0_10px_20px_-2px_rgba(0,0,0,0.04)]">
-            <div className="px-6 py-3 text-violet">
+            <div className="px-6 py-3 text-violet font-semibold">
               Extracción de precios de una imagen - OCR Tesseract
             </div>
             <div className="p-6">
@@ -104,7 +104,7 @@ export const Proyects = () => {
           </div>
 
           <div className="block rounded-lg divide-y divide-white border text-center shadow-[0_2px_15px_-3px_rgba(0,0,0,0.07),0_10px_20px_-2px_rgba(0,0,0,0.04)]">
-            <div className="px-6 py-3 text-violet">
+            <div className="px-6 py-3 text-violet font-semibold">
               Ecommerce: Next.js
             </div>
             <div className="p-6">
@@ -148,7 +148,7 @@ export const Proyects = () => {
           </div>
 
           <div className="block rounded-lg divide-y divide-white border text-center shadow-[0_2px_15px_-3px_rgba(0,0,0,0.07),0_10px_20px_-2px_rgba(0,0,0,0.04)]">
-            <div className="px-6 py-3 text-violet">
+            <div className="px-6 py-3 text-violet font-semibold">
               Pokemon: Curso de Next.js
             </div>
             <div className="p-6">
@@ -180,7 +180,7 @@ export const Proyects = () => {
           </div>
 
           <div className="block rounded-lg divide-y divide-white border text-center shadow-[0_2px_15px_-3px_rgba(0,0,0,0.07),0_10px_20px_-2px_rgba(0,0,0,0.04)]">
-            <div className="px-6 py-3 text-violet">
+            <div className="px-6 py-3 text-violet font-semibold">
               Microservicios: Proyecto de microservicios
             </div>
             <div className="p-6">

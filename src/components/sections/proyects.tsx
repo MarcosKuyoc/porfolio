@@ -231,8 +231,8 @@ export const Proyects = () => {
               </div>
             </div>
             <div className="px-6 py-3">
-              <a href="https://pokemon-static-generation.vercel.app/" className='text-green-2' target='_blank'>
-                https://pokemon-static-generation.vercel.app/
+              <a href="https://github.com/MarcosKuyoc/microservices-with-nest" className='text-green-2' target='_blank'>
+                https://github.com/MarcosKuyoc/microservices-with-nest
               </a>
             </div>
           </div>

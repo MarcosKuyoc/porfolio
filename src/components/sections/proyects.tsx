@@ -126,6 +126,8 @@ export const Proyects = () => {
                   height={100}
                   className='pr-2 pb-2 md:w-fit h-auto'
                 />
+              </div>
+              <div className='pt-5 flex flex-row'>
                 <Image alt='Docker'
                   src="https://img.shields.io/badge/-Docker-2496ED?tyle=for-the-badge&logo=docker&logoColor=white"
                   width={100}
@@ -181,13 +183,13 @@ export const Proyects = () => {
 
           <div className="block rounded-lg divide-y divide-white border text-center shadow-[0_2px_15px_-3px_rgba(0,0,0,0.07),0_10px_20px_-2px_rgba(0,0,0,0.04)]">
             <div className="px-6 py-3 text-violet font-semibold">
-              Microservicios: Proyecto de microservicios
+              Microservicios: Con NestJs y API Gateway KrakendD
             </div>
             <div className="p-6">
               <Image
                 className="block w-full rounded-lg object-cover object-center"
-                alt='template-registro-usuarios'
-                src="images/template-registro-usuarios.png" width={400} height={300}
+                alt='Microservicios'
+                src="images/microservicios-v1.0.0.jpg" width={400} height={300}
               />
               <div className='pt-5 flex flex-row'>
                 <Image alt='Node'
@@ -198,32 +200,28 @@ export const Proyects = () => {
                 />
                 <Image alt='Typescript'
                   src="https://img.shields.io/badge/-typescript-3178C6?style=for-the-badge&logo=typescript&logoColor=white"
-                  width={120}
-                  height={100}
-                  className='pr-2 pb-2 md:w-fit h-auto'
-                />
-                <Image alt='jest'
-                  src="https://img.shields.io/badge/-jest-C21325?style=for-the-badge&logo=jest&logoColor=white"
-                  width={110}
+                  width={100}
                   height={100}
                   className='pr-2 pb-2 md:w-fit h-auto'
                 />
               </div>
               <div className='pt-5 flex flex-row'>
-                <Image alt='Express'
-                  src="https://img.shields.io/badge/-express-404d59?style=for-the-badge&logo=express&logoColor=61d9fb"
-                  width={100}
-                  height={100}
-                  className='pr-2 pb-2 md:w-fit h-auto'
-                />
                 <Image alt='Docker'
                   src="https://img.shields.io/badge/-Docker-2496ED?tyle=for-the-badge&logo=docker&logoColor=white"
                   width={100}
                   height={100}
                   className='pr-2 pb-2 md:w-fit h-auto'
                 />
-                <Image alt='Logs'
-                  src="https://img.shields.io/badge/-pino log-859947?style=for-the-badge&logo=pino&logoColor=61d9fb"
+                <Image alt='RabbitMq'
+                  src="https://img.shields.io/badge/-rabbitmq-FF6600?style=for-the-badge&logo=rabbitmq&logoColor=white"
+                  width={100}
+                  height={100}
+                  className='pr-2 pb-2 md:w-fit h-auto'
+                />
+              </div>
+              <div className='pt-5 flex flex-row'>
+                <Image alt='NestJs'
+                  src="https://img.shields.io/badge/-nest-E0234E?style=for-the-badge&logo=nestjs&logoColor=white"
                   width={100}
                   height={100}
                   className='pr-2 pb-2 md:w-fit h-auto'

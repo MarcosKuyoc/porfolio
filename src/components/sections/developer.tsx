@@ -22,11 +22,11 @@ export const Developer = () => {
       </div>
       
       <div className="text-3xl uppercase pt-5 pb-5">Bienvenido a mi sitio web personal.</div>
-      <div className="text-1xl pt-5 pb-5 text-orange font-bold">Soy, desarrollador FullStack (Javascript, Typescript, Node, Python, PHP, Nest.js, Next.js, Vue.js, Nuxt.js etc.), con más de 14 años de experiencia en el área tecnológica.</div>
+      <div className="text-1xl pt-5 pb-5 text-orange font-bold">Soy, desarrollador FullStack (Javascript, Typescript, Node.js, PHP, Python, C#, Dart), con más de 14 años de experiencia en el área tecnológica.</div>
       <br />
       <br />
-      <p className="mb-10 text-2xl">Si quieres ponerte en contacto conmigo escribe a <a href='mailto:marcos.kuyoc.dev@gmail.com' className="underline underline-offset-1 text-green">marcos.kuyoc.dev@gmail.com</a></p>
-      <a href="/downloads/cv_es_2023.pdf" download="CVMarcosKuyoc2023.pdf">
+      <p className="mb-10 text-2xl">Si quieres ponerte en contacto conmigo escribe a <a href='mailto:jmke.mat@gmail.com' className="underline underline-offset-1 text-green">jmke.mat@gmail.com</a></p>
+      <a href="/downloads/cv_es.pdf" download="MarcosKuyoc.pdf">
         <button className="bg-green-600 hover:bg-green-700 px-5 py-2 text-sm leading-5 rounded-full font-semibold text-white">
           <span>Descarga mi CV</span>
         </button>
